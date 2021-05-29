@@ -1,0 +1,10 @@
+setup.py
+coolpwn/CSU.py
+coolpwn/__init__.py
+coolpwn/abbreviate.py
+coolpwn/misc.py
+coolpwn.egg-info/PKG-INFO
+coolpwn.egg-info/SOURCES.txt
+coolpwn.egg-info/dependency_links.txt
+coolpwn.egg-info/not-zip-safe
+coolpwn.egg-info/top_level.txt

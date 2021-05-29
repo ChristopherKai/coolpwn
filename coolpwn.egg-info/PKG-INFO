@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: coolpwn
+Version: 1.0.0
+Summary: framework for pwn
+Home-page: https://flask.palletsprojects.com/tutorial/
+Author: kais
+Author-email: hjuj_91@163.com
+License: BSD
+Description: empty
+Platform: UNKNOWN
