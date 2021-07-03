@@ -28,3 +28,5 @@ class PwnContext:
     
     def disableAlarm(self):
         self.gdbScript += "skip function alarm\n" 
+
+__all__ = ["PwnContext"]
