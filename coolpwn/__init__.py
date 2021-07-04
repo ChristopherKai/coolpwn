@@ -2,7 +2,7 @@ from .abbreviate import *
 from .misc import *
 
 
-class PwnContext:
+class PwnContext(object):
     def __init__(self, process, elf):
         self.elf = elf
         self.p = process
