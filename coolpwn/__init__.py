@@ -19,8 +19,9 @@ class PwnContext(object):
         """.format(addr=addr,rebase=rebase)
         gdb.attach(self.p, self.gdbScript)
 
-    def addDebug(self,addr):
+    def addDebug(self,addr=None):
         def debugDecorator(func):
+            if addr == None: addr = func.__name__
             if not self.breaks: self.breaks = {}
             self.breaks[func.__name__] = addr
             return func
