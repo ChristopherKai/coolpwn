@@ -2,6 +2,7 @@ setup.py
 coolpwn/CSU.py
 coolpwn/__init__.py
 coolpwn/abbreviate.py
+coolpwn/core.py
 coolpwn/misc.py
 coolpwn.egg-info/PKG-INFO
 coolpwn.egg-info/SOURCES.txt
