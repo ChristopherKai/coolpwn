@@ -1,4 +1,5 @@
 import os
+from pwn import *
 
 class PwnContext:
     def __init__(self, process, elf):
